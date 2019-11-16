@@ -1,0 +1,81 @@
+/* Write some CSS below */
+body 
+h1 { 
+	color: darkblue; 
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 42px;
+}
+
+h2 {
+	color: lightblue;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 38px;
+}
+
+
+h3{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+}
+
+p{
+	color: blue;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	text-align:justify;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: orange;
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.banner {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.banner p{
+	color: white;
+	opacity: 0.8;
+}
+.container{
+	width: 1000px;
+	margin: 10px auto;
+}
+.cards-white{
+	background-color: white;
+	width: 250px;
+	padding: 24px;
+	margin: 16px auto;
+	border-radius: 4px;
+	box-shadow: 2px 3px 20px rgba(0,0,5);
+
+}
+.cards-white img{
+	object-fit: cover;
+	width: 180px;
+	height: 180px;
+	
+}
+
+.cards{
+	display: flex;
+}
+
+.footer {
+	background-color: rgb(30,30,30);
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+#banner{
+	background-image: url(image/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
